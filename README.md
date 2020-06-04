@@ -1,7 +1,6 @@
 # Ecoleta - Aplicação de Pontos de Coleta de Resíduos
 
-## Projeto da Next Level Week 1.0- [Rocketseat](https://rocketseat.com.br/)
-### Feito entre 01/06 a 07/06 de 2020
+## Projeto da Next Level Week 1.0 - [Rocketseat](https://rocketseat.com.br/) (01/06 a 07/06 de 2020)
 
 - Semana Internacional do Meio Ambiente - 01/06/2020 a [05/06/2020](https://pt.wikipedia.org/wiki/Dia_Mundial_do_Ambiente)
 - Marketplace para conectar empresas e entidades às pessoas que estão descartando resíduos
