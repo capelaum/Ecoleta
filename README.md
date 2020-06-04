@@ -129,9 +129,11 @@ Execute o comando em cada uma:
 - Suporte a muitos Bancos de Dados
 - Query escrita em Javascript (query builder)
 
-        SELECT * FROM users WHERE name = 'Khayan'
+#### Exemplo:
 
-        knex('users').where('name', 'Khayan').select('*')
+        SELECT * FROM users WHERE name = 'Luis'
+
+        knex('users').where('name', 'Luis').select('*')
 
 #### Tabelas
 
