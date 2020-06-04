@@ -14,19 +14,19 @@
 
 #### Abra o Terminal e navegue até a pasta server e web 
 
-Execute o comando em cada uma: 
+Execute o comando em cada uma das pastas: 
 
 ```
  npm install
 ```
 
-### Rode o back-end pelo terminal dentro do diretorio da pasta server:
+### Rode o back-end pelo terminal dentro da pasta server:
 
 ```
  npm run dev // ou yarn dev
 ```
 
-### Rode o front-end pelo terminal dentro do diretorio da pasta web:
+### Rode o front-end pelo terminal dentro da pasta web:
 
 ```
  npm start // ou yarn start
