@@ -1,4 +1,4 @@
-# Ecoleta :seedling: - Aplicação de Pontos de Coleta de Resíduos 
+# :seedling: Ecoleta - Aplicação de Pontos de Coleta de Resíduos 
  
 ## Projeto da Next Level Week 1.0 - [Rocketseat](https://rocketseat.com.br/) (01/06 a 07/06 de 2020)
 
