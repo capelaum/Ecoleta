@@ -9,14 +9,13 @@ const routes = express.Router();
 const pointsController = new PointsController();
 const itemsController = new ItemsController();
 
-//* index, show, create, update, delete
 // listar itens
 routes.get('/items', itemsController.index);
 
 // criar pontos de coleta
 routes.post('/points', pointsController.create);
 
-// listar pontos específicos
+// listar pontos específicos filtrados por campos - Query: (?city=...&uf=..&items=number)
 routes.get('/points', pointsController.index);
 
 // listar ponto de coleta específico

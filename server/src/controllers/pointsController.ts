@@ -3,17 +3,16 @@ import knex from '../database/connection';
 
 class PointsController {
 
+  // Lista pontos de coleta filtrados
   async index(request: Request, response: Response) {
-    // cidade, uf, items (query params)
-
     const {city, uf, items} = request.query;
 
-    // transforma em number o array items
+    // transforma string items em numbers[]
     const parsedItems = String(items)
       .split(',')
       .map(item => Number(item.trim()));
 
-    //* busca todos pontos com os ids de items buscados e uf, cidade!
+    //* busca a cidade e uf dos pontos através da id dos itens
     const points = await knex('points')
       .join('point_items', 'points.id', '=', 'point_items.point_id')
       .whereIn('point_items.item_id', parsedItems)
@@ -25,6 +24,7 @@ class PointsController {
     return response.json(points);
   }
 
+  // Mostra ponto de coleta específico
   async show(request: Request, response: Response) {
     const { id } = request.params;
 
@@ -43,20 +43,23 @@ class PointsController {
     .where('point_items.point_id', id)
     .select('items.title');
 
-    console.log(items);
+    // console.log(items);
 
     return response.json({ point, items }); 
   }
 
+  // Cria um novo ponto de coleta
   async create(request: Request, response: Response) {
+
     const {
       name, email, whatsapp, latitude, longitude, city, uf, items
     } = request.body; // pega dados do body
   
     // knex transaction: se uma query der ruim a outra tbm não executa
-    const trx = await knex.transaction();
+    const trx = await knex.transaction(); 
 
     const point = {
+      // no momento seta apenas uma imagem em específico
       image: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60', 
       name, email, whatsapp, latitude, longitude, city, uf
     }
@@ -64,7 +67,7 @@ class PointsController {
     const insertedIds = await trx('points').insert(point);
     const point_id = insertedIds[0];
   
-    // tratando array items
+    // tratando number items[]
     const pointItems = items.map((item_id: number) => {
       return {
         item_id,
