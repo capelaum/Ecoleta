@@ -30,16 +30,17 @@
 </p>
 
 <p align="center">
-  <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
-## Projeto da Next Level Week 1.0 (01/06 a 07/06 de 2020)
+<h1 align="center">
+	Projeto da Next Level Week 1.0 (01/06 a 07/06 de 2020)
+</h1>
 
 ## O que é Next Level Week?
 
@@ -258,12 +259,12 @@ Execute o comando install dentro de cada uma das pastas server e web:
 
 - Define quais endereços externos podem acessar a aplicação
 
-## 🤔 How to contribute
+## 🤔 Como contribuir
 
-- Make a fork;
-- Create a branck with your feature: `git checkout -b my-feature`;
-- Commit changes: `git commit -m 'feat: My new feature'`;
-- Make a push to your branch: `git push origin my-feature`.
+- Fazer um fork;
+- Criar um branck com sua feature: `git checkout -b my-feature`;
+- Commit: `git commit -m 'feat: My new feature'`;
+- Fazer um push para seu branch: `git push origin my-feature`.
 
 After merging your receipt request to done, you can delete a branch from yours.
 
