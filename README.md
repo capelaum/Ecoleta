@@ -34,7 +34,7 @@
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Conceitos-Gerais">Conceitos Gerais</a>
+  <a href="#-Conceitos-Gerais">Conceitos Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -194,7 +194,6 @@ Execute o comando install dentro de cada uma das pastas server e web:
 - request.body: Parâmetros que chegam através do corpo da requisição
 - request.params: Identificam um recurso requerido pela própria rota
 - request.query: Parâmetros adicionados a rota, geralmente opcionais. Servem para realização de filtros, paginação e etc
-
 
 ### Banco de Dados
 
