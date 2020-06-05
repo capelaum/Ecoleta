@@ -30,10 +30,11 @@
 </p>
 
 <p align="center">
-  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#seedling-Ecoleta---Aplicação-de-Pontos-de-Coleta-de-Resíduos">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Conceitos-Gerais">Conceitos Gerais</a>
   <a href="#-Como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -56,7 +57,7 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 - [React Native][rn]
 - [Expo][expo]
 
-## :seedling: Ecoleta - Aplicação de Pontos de Coleta de Resíduos 
+# :seedling: Ecoleta - Aplicação de Pontos de Coleta de Resíduos 
 
 - Semana Internacional do Meio Ambiente - 01/06/2020 a [05/06/2020](https://pt.wikipedia.org/wiki/Dia_Mundial_do_Ambiente)
 - Marketplace para conectar empresas e entidades às pessoas que estão descartando resíduos
@@ -70,7 +71,6 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 
 To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
--------------------------
 ## 💻 Como usar
 
 ### Para Rodar essa aplicação você precisa ter instalado no PATH do seu ambiente: 
