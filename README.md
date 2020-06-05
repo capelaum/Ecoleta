@@ -99,6 +99,8 @@ Execute o comando install dentro de cada uma das pastas server e web:
 ```
  npm run dev 
  # ou yarn dev
+ 
+ backend running on port 3333
 ```
 
 ### Rode o Front-end pelo Terminal dentro da pasta web:
@@ -107,7 +109,7 @@ Execute o comando install dentro de cada uma das pastas server e web:
  npm start 
  # ou yarn start
  
- running on port 3333
+ frontend running on port 3000
 ```
 ----------------------------------
 ## Conceitos Gerais
@@ -261,11 +263,12 @@ Execute o comando install dentro de cada uma das pastas server e web:
 ## 🤔 Como contribuir
 
 - Fazer um fork;
-- Criar um branck com sua feature: `git checkout -b my-feature`;
+- Criar um branch com sua feature: `git checkout -b my-feature`;
 - Commit: `git commit -m 'feat: My new feature'`;
 - Fazer um push para seu branch: `git push origin my-feature`.
+- Realizar um pull request
 
-After merging your receipt request to done, you can delete a branch from yours.
+Caso seja aceito, haverá um merge para o master e assim poderá deletar seu branch
 
 ## :memo: License
 
