@@ -69,7 +69,7 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 
 ## 🔖 Layout
 
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+Pra acesso ao layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
 ## 💻 Como usar
 
@@ -111,6 +111,8 @@ Execute o comando install dentro de cada uma das pastas server e web:
  
  frontend running on port 3000
 ```
+
+### Basta acessar http://localhost:3000 e ver a aplicação 
 ----------------------------------
 ## Conceitos Gerais
 
