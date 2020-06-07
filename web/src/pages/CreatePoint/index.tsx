@@ -123,6 +123,7 @@ const CreatePoint = () => {
     // Se tiver um Index -> já esta selecionado -> remover selected
     if(alreadySelected >= 0) {
       const filteredItems = selectedItems.filter(item => item !== id);
+      
       setSelectedItems(filteredItems);  // passa o array com o array de itens filtrado
     } else {
       setSelectedItems([...selectedItems, id]);
