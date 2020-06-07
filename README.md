@@ -39,9 +39,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-<h1 align="center">
-	Projeto da Next Level Week 1.0 (01/06 a 07/06 de 2020)
-</h1>
+<h3 align="center">01/06 a 07/06 de 2020</h3>
 
 ## O que é Next Level Week?
 
