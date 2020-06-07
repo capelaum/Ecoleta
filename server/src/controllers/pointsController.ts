@@ -3,7 +3,7 @@ import knex from '../database/connection';
 
 class PointsController {
 
-  // Lista pontos de coleta filtrados
+  //* Lista pontos de coleta filtrados
   async index(request: Request, response: Response) {
     const {city, uf, items} = request.query;
 
@@ -21,10 +21,17 @@ class PointsController {
       .distinct()
       .select('points.*');
 
-    return response.json(points);
+    const serializedPoints = points.map(point => {
+      return { 
+        ...point,
+        image_url: `http://192.168.100.102:3333/uploads/${point.image}`, 
+      };
+    });
+
+    return response.json(serializedPoints);
   }
 
-  // Mostra ponto de coleta específico
+  //* Mostra ponto de coleta específico
   async show(request: Request, response: Response) {
     const { id } = request.params;
 
@@ -34,8 +41,14 @@ class PointsController {
       return response.status(400).json({ message: 'Point not found' });
     }
 
+    // SQL QUERY
     // JOIN point_items ON items_id = point_items.item_id
     // WHERE point_items.point_id = {id}
+
+    const serializedPoint = {
+      ...point,
+      image_url: `http://192.168.100.102:3333/uploads/${point.image}`, 
+    };
 
     //* lista o nome dos itens que estão relacionados ao ponto de coleta buscado
     const items = await knex('items')
@@ -45,35 +58,37 @@ class PointsController {
 
     // console.log(items);
 
-    return response.json({ point, items }); 
+    return response.json({ point: serializedPoint, items }); 
   }
 
-  // Cria um novo ponto de coleta
+  //* Cria um novo ponto de coleta
   async create(request: Request, response: Response) {
-
+    // pega dados do body
     const {
       name, email, whatsapp, latitude, longitude, city, uf, items
-    } = request.body; // pega dados do body
+    } = request.body; 
   
     // knex transaction: se uma query der ruim a outra tbm não executa
     const trx = await knex.transaction(); 
 
     const point = {
-      // no momento seta apenas uma imagem em específico
-      image: 'https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60', 
+      image: request.file.filename, 
       name, email, whatsapp, latitude, longitude, city, uf
     }
   
     const insertedIds = await trx('points').insert(point);
     const point_id = insertedIds[0];
   
-    // tratando number items[]
-    const pointItems = items.map((item_id: number) => {
-      return {
-        item_id,
-        point_id,
-      };
-    });
+    // tratando items
+    const pointItems = items
+      .split(',')
+      .map((item: string) => Number(item.trim()))
+      .map((item_id: number) => {
+        return {
+          item_id,
+          point_id,
+        };
+      });
 
     // tabela pivot
     await trx('point_items').insert(pointItems);
