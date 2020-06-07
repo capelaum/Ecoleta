@@ -21,16 +21,16 @@ routes.get('/items', itemsController.index);
 routes.post(
   '/points', 
   upload.single('image'), 
-  // Pode ser feito em um arquivo separado!
+  // Pode ser feito em um arquivo separado
   celebrate({
     body: Joi.object().keys({
       name: Joi.string().required(),
-      email: Joi.string().required(),
+      email: Joi.string().required().email(),
       whatsapp: Joi.number().required(),  // veificar tamanho
       latitude: Joi.number().required(),
       longitude: Joi.number().required(),
       city: Joi.string().required(),
-      uf: Joi.string().required(),
+      uf: Joi.string().required().max(2),
       items: Joi.string().required() // regex para vericar q tem numeros separado p/ virgulas apenas
     })
   }, {
