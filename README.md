@@ -2,8 +2,10 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
 </h1>
 
+<h3 align="center">01/06 a 07/06 de 2020</h3>
+
 <h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
+	:construction: NextLevelWeek 1.0 🚀 :construction:
 </h4>
 
 <p align="center">
@@ -39,8 +41,6 @@
   <a href="#memo-license">License</a>
 </p>
 
-<h3 align="center">01/06 a 07/06 de 2020</h3>
-
 ## O que é Next Level Week?
 
 NLW é um evento online de graça que ocorre durante uma semana de conteúdo prático de programação e networking com um objetivo: te levar ao próximo nível.
@@ -71,7 +71,7 @@ Pra acesso ao layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28
 
 ## 💻 Como usar
 
-### Para Rodar essa aplicação você precisa ter instalado no PATH do seu ambiente: 
+### Para rodar a aplicação Web você precisa ter instalado no PATH do seu ambiente: 
 
 - [Git](https://git-scm.com)
 - [Node.js][nodejs] + [Yarn][yarn]
@@ -83,34 +83,66 @@ Pra acesso ao layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28
 git clone https://github.com/capelaum/Ecoleta
 ```
 
-### Instalando dependências pelo npm
+### Instale dependências pelo npm ou yarn
 
 Execute o comando install dentro de cada uma das pastas server e web: 
 
 ```
+ # yarn install
  npm install
- # ou yarn install
 ```
 
 ### Rode o Back-end pelo Terminal dentro da pasta server:
 
 ```
- npm run dev 
- # ou yarn dev
- 
+# Configurando banco de dados com SQLite
+
+# Migrações
+yarn knex:migrate
+
+# Seeds
+yarn knex:seed
+
+# Execute
+# yarn dev
+npm run dev 
+
  backend running on port 3333
 ```
 
 ### Rode o Front-end pelo Terminal dentro da pasta web:
 
 ```
+ # yarn start
  npm start 
- # ou yarn start
  
  frontend running on port 3000
 ```
 
 ### Basta acessar http://localhost:3000 e ver a aplicação 
+
+### Rode versão Mobile pelo terminal dentro da pasta mobile:
+
+#### Para rodar a aplicação mobile você precisa ter instalado o aplicativo [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) no seu celular, tem tanto versão IOS quanto Android
+```
+
+# Instale dependências
+# npm install
+yarn install
+
+# Execute
+# npm start
+yarn start
+
+# Expo irá abrir, em seguida escaneie o QR Code pelo terminal ou pela página do Expo
+
+# Caso tenha algum problema com fontes, execute:
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+```
+
+#### Uma outra forma é abrir pelo app do expo no celular e clicar no símbolo de '+' no canto superior direito da tela do celular e colocar a url expo que aparece acima do QR Code
+
 ----------------------------------
 ## Conceitos Gerais
 
