@@ -69,14 +69,14 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 
 Pra acesso ao layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
-## 💻 Como usar
+## Como usar
 
 ### Para rodar a aplicação Web você precisa ter instalado no PATH do seu ambiente: 
 
 - [Git](https://git-scm.com)
 - [Node.js][nodejs] + [Yarn][yarn]
 
-## Rodando a Aplicação Web:
+## 💻 Rodando a Aplicação Web:
 
 ```
 # Clone o repositorio
@@ -107,7 +107,7 @@ yarn knex:seed
 # yarn dev
 npm run dev 
 
- backend running on port 3333
+backend running on port 3333
 ```
 
 ### Rode o Front-end pelo Terminal dentro da pasta web:
@@ -116,16 +116,18 @@ npm run dev
  # yarn start
  npm start 
  
- frontend running on port 3000
+frontend running on port 3000
 ```
 
 ### Basta acessar http://localhost:3000 e ver a aplicação 
 
-### Rode versão Mobile pelo terminal dentro da pasta mobile:
+### :iphone: Rodando a versão Mobile 
 
 #### Para rodar a aplicação mobile você precisa ter instalado o aplicativo [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) no seu celular, tem tanto versão IOS quanto Android
-```
 
+### Pelo Terminal dentro da pasta mobile:
+
+```
 # Instale dependências
 # npm install
 yarn install
@@ -300,7 +302,7 @@ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 - Fazer um push para seu branch: `git push origin my-feature`.
 - Realizar um pull request
 
-Caso seja aceito, haverá um merge para o master e assim poderá deletar seu branch
+Caso aceito, haverá um merge para o master e assim poderá deletar seu branch
 
 ## :memo: License
 
