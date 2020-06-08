@@ -63,7 +63,7 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 - Entidades poderão cadastrar pontos de coleta
 
 <h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
+    <img alt="Example" title="Example" src=".github/capa.svg" width="600px" />
 </h1>
 
 ## 🔖 Layout
