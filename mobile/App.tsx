@@ -6,7 +6,7 @@ import { Ubuntu_700Bold, useFonts } from '@expo-google-fonts/ubuntu';
 
 import Routes from './src/routes';
 
-export default async function App() {
+export default function App() {
   const [fontsLoaded] = useFonts({
     Roboto_400Regular,
     Roboto_500Medium,

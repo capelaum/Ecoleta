@@ -138,7 +138,7 @@ const CreatePoint = () => {
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
-    // console.log(selectedFile); 
+    console.log(selectedFile); 
 
     const { name, email, whatsapp } = formData;
     const uf = selectedUf;
@@ -159,12 +159,16 @@ const CreatePoint = () => {
 
     if(selectedFile)
       data.append('image', selectedFile);
+    else
+      alert('Selecione uma imagem.');
 
     //console.log(data);
-
-    await api.post('points', data);
-
-    alert('Ponto de Coleta criado!');
+    try{
+      await api.post('points', data);
+      alert('Ponto de Coleta criado!');
+    }catch {
+      alert('Revise e complete os campos corretamente.');
+    }
 
     history.push('/');
   }

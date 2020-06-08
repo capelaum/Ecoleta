@@ -52,7 +52,7 @@ const Points = () => {
 
       const {latitude, longitude } = location.coords;
 
-      console.log(latitude, longitude);
+      //console.log(latitude, longitude);
 
       setInitialPosition([latitude, longitude])
     }
@@ -107,7 +107,7 @@ const Points = () => {
         </TouchableOpacity>
 
         <Text style={styles.title}>Bem vindo.</Text>
-        <Text style={styles.description}>Econtre no mapa um ponto de coleta.</Text>
+        <Text style={styles.description}>Encontre no mapa um ponto de coleta.</Text>
 
         <View style={styles.mapContainer}>
           { initialPosition[0] !== 0 && (
@@ -131,8 +131,8 @@ const Points = () => {
                 }}
               >
                 <View style={styles.mapMarkerContainer}>
-                <Image style={styles.mapMarkerImage} source={{ uri: point.image_url }} />
-                <Text style={styles.mapMarkerTitle}>point.name</Text>
+                  <Image style={styles.mapMarkerImage} source={{ uri: point.image_url }} />
+                  <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                 </View>
               </Marker>
             ))}
