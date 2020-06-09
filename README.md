@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+    <img alt="Ecoleta" title="Ecoleta" src="./web/src/assets/logo.svg" width="220px" />
 </h1>
 
 <h3 align="center">01/06 a 07/06 de 2020</h3>
@@ -34,11 +34,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-<h1 align="center">
-    <img alt="Ecoleta" title="Ecoleta" src="./web/src/assets/logo.svg" width="220px" />
-</h1>
-
-# Aplicação de Pontos de Coleta de Resíduos 
+# Aplicação de cadastro de Pontos de Coleta
 
 O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
 
@@ -55,6 +51,10 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 Você pode visualizar o layout do projeto no formato através desse [link](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/). Lembrando que você irá precisar ter uma conta no [Figma](https://www.figma.com/).
 
 ## O que é Next Level Week?
+
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+</h1>
 
 NLW é um evento online de graça que ocorre durante uma semana de conteúdo prático de programação e networking com um objetivo: te levar ao próximo nível.
 
