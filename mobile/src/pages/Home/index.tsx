@@ -15,11 +15,13 @@ const Home = () => {
   }
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1 }} behavior={ Platform.OS === 'ios' ? 'padding' : undefined }>
+    <KeyboardAvoidingView 
+      style={{ flex: 1 }} 
+      behavior={ Platform.OS === 'ios' ? 'padding' : undefined }
+    >
       <ImageBackground 
         source={require('../../assets/home-background.png')} 
         style={styles.container}
-        resizeMode="contain"
         imageStyle={{ width: 274, height: 368 }}
       >
         <View style={styles.main}>

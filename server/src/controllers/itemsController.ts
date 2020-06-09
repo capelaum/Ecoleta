@@ -3,15 +3,15 @@ import knex from '../database/connection';
 
 class ItemsController {
   async index(request: Request, response: Response) {
-    //SELECT * FROM items
+    // Query - SELECT * FROM items
     const items = await knex('items').select('*'); 
   
     const serializedItems = items.map(item => {
       return { 
         id: item.id,
         name: item.title,
-        // adaptar para pegar as imagens do modo mobile
-        image_url: `http://192.168.100.102:3333/uploads/${item.image}`, 
+        //! adaptar para pegar as imagens do modo mobile
+        image_url: `http://192.168.100.101:3333/uploads/${item.image}`, 
       };
     });
   

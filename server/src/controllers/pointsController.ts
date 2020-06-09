@@ -24,7 +24,7 @@ class PointsController {
     const serializedPoints = points.map(point => {
       return { 
         ...point,
-        image_url: `http://192.168.100.102:3333/uploads/${point.image}`, 
+        image_url: `http://192.168.100.101:3333/uploads/${point.image}`, 
       };
     });
 
@@ -47,7 +47,7 @@ class PointsController {
 
     const serializedPoint = {
       ...point,
-      image_url: `http://192.168.100.102:3333/uploads/${point.image}`, 
+      image_url: `http://192.168.100.101:3333/uploads/${point.image}`, 
     };
 
     //* lista o nome dos itens que estão relacionados ao ponto de coleta buscado
@@ -65,7 +65,14 @@ class PointsController {
   async create(request: Request, response: Response) {
     // pega dados do body
     const {
-      name, email, whatsapp, latitude, longitude, city, uf, items
+      name, 
+      email, 
+      whatsapp, 
+      latitude, 
+      longitude, 
+      city, 
+      uf, 
+      items
     } = request.body; 
   
     // knex transaction: se uma query der ruim a outra tbm não executa
@@ -73,7 +80,13 @@ class PointsController {
 
     const point = {
       image: request.file.filename, 
-      name, email, whatsapp, latitude, longitude, city, uf
+      name, 
+      email, 
+      whatsapp, 
+      latitude, 
+      longitude, 
+      city, 
+      uf
     }
   
     const insertedIds = await trx('points').insert(point);
@@ -93,7 +106,8 @@ class PointsController {
     // tabela pivot
     await trx('point_items').insert(pointItems);
     
-    await trx.commit(); //* fazer as inserções com transactions!
+    //* fazer as inserções com transactions!
+    await trx.commit(); 
 
     return response.json({ 
       id: point_id,
