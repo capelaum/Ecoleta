@@ -1,12 +1,8 @@
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
 </h1>
-<h1 align="center">
-    <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
-</h1>
 
 <h3 align="center">01/06 a 07/06 de 2020</h3>
-
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/capelaum/Ecoleta?color=%2304D361">
@@ -37,6 +33,26 @@
   <a href="#memo-license">License</a>
 </p>
 
+<h1 align="center">
+    <img alt="Ecoleta" title="Ecoleta" src="./web/src/assets/logo.svg" width="220px" />
+</h1>
+
+# :seedling: Ecoleta - Aplicação de Pontos de Coleta de Resíduos 
+
+O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
+
+- Semana Internacional do Meio Ambiente - 01/06/2020 a [05/06/2020](https://pt.wikipedia.org/wiki/Dia_Mundial_do_Ambiente)
+- Marketplace para conectar empresas e entidades às pessoas que estão descartando resíduos
+- Entidades poderão cadastrar pontos de coleta
+
+<h1 align="center">
+    <img alt="Example" title="Example" src=".github/capa.svg" width="600px" />
+</h1>
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto no formato através desse [link](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/). Lembrando que você irá precisar ter uma conta no [Figma](https://www.figma.com/).
+
 ## O que é Next Level Week?
 
 NLW é um evento online de graça que ocorre durante uma semana de conteúdo prático de programação e networking com um objetivo: te levar ao próximo nível.
@@ -50,20 +66,6 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 - [React][reactjs]
 - [React Native][rn]
 - [Expo][expo]
-
-# :seedling: Ecoleta - Aplicação de Pontos de Coleta de Resíduos 
-
-- Semana Internacional do Meio Ambiente - 01/06/2020 a [05/06/2020](https://pt.wikipedia.org/wiki/Dia_Mundial_do_Ambiente)
-- Marketplace para conectar empresas e entidades às pessoas que estão descartando resíduos
-- Entidades poderão cadastrar pontos de coleta
-
-<h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="600px" />
-</h1>
-
-## 🔖 Layout
-
-Pra acesso ao layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
 ## Como usar
 
