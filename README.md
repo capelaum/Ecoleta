@@ -1,12 +1,12 @@
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
 </h1>
+<h1 align="center">
+    <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
+</h1>
 
 <h3 align="center">01/06 a 07/06 de 2020</h3>
 
-<h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 :construction:
-</h4>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/capelaum/Ecoleta?color=%2304D361">
@@ -25,11 +25,6 @@
    <a href="https://github.com/capelaum/Ecoleta/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/capelaum/Ecoleta?style=social">
   </a>
-</p>
-
-<p align="center">
-	<a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F	%2Fraw.githubusercontent.com%2Fcapelaum%2FEcoleta%2Fmaster%2Fserver%2FInsomnia_2020-06-05.json" target="_blank">
-	<img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <p align="center">
@@ -110,6 +105,11 @@ npm run dev
 
 backend running on port 3333
 ```
+
+<p align="center">
+	<a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F	%2Fraw.githubusercontent.com%2Fcapelaum%2FEcoleta%2Fmaster%2Fserver%2FInsomnia_2020-06-05.json" target="_blank">
+	<img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
 ### Rode o Front-end pelo Terminal dentro da pasta web:
 
@@ -297,17 +297,17 @@ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ## 🤔 Como contribuir
 
-- Fazer um fork;
-- Criar um branch com sua feature: `git checkout -b my-feature`;
-- Commit: `git commit -m 'feat: My new feature'`;
-- Fazer um push para seu branch: `git push origin my-feature`.
-- Realizar um pull request
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-Caso aceito, haverá um merge para o master e assim poderá deletar seu branch
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## :memo: License
+## :memo: Licença
 
-This project is under the MIT license. See the [LICENSE](https://github.com/capelaum/Ecoleta/blob/master/LICENSE) for details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
 
 Made with ♥ by capelaum :wave: [Get in touch!](https://www.linkedin.com/in/luis-capelletto/)
 
