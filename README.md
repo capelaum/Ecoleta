@@ -2,8 +2,6 @@
     <img alt="Ecoleta" title="Ecoleta" src="./web/src/assets/logo.svg" width="220px" />
 </h1>
 
-<h3 align="center">01/06 a 07/06 de 2020</h3>
-
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/capelaum/Ecoleta?color=%2304D361">
@@ -51,6 +49,8 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 Você pode visualizar o layout do projeto no formato através desse [link](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/). Lembrando que você irá precisar ter uma conta no [Figma](https://www.figma.com/).
 
 ## O que é Next Level Week?
+
+<h3 align="center">01/06 a 07/06 de 2020</h3>
 
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
