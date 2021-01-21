@@ -21,13 +21,12 @@
 </p>
 
 <p align="center">
-  <a href="#seedling-Ecoleta---Aplicação-de-Pontos-de-Coleta-de-Resíduos">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="## 🔖 Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#aplica%C3%A7%C3%A3o-de-cadastro-de-pontos-de-coleta">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Conceitos-Gerais">Conceitos Gerais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="## 🤔 Como contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="## :memo: Licença">Licença</a>
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#memo-licen%C3%A7a">Licença</a> 
 </p>
 
 # Aplicação de cadastro de Pontos de Coleta
@@ -56,7 +55,7 @@ Você pode visualizar o layout do projeto no formato através desse [link](https
 
 NLW é um evento online de graça que ocorre durante uma semana de conteúdo prático de programação e networking com um objetivo: te levar ao próximo nível.
 
-## Organizado pela [Rocketseat](rocketseat.com.br)
+| Organizado pela [Rocketseat](rocketseat.com.br)
 
 ## Tecnologias
 
