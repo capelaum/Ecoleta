@@ -43,7 +43,7 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto no formato através desse [link](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/). Lembrando que você irá precisar ter uma conta no [Figma](https://www.figma.com/).
+Você pode visualizar o layout do projeto no formato através desse [link](https://www.figma.com/file/H60iJpWguRLMtFj2Slprdx/Ecoleta-Copy?node-id=0%3A1). Lembrando que você irá precisar ter uma conta no [Figma](https://www.figma.com/).
 
 ## O que é Next Level Week?
 
