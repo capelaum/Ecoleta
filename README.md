@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ecoleta" title="Ecoleta" src="./web/src/assets/logo.svg" width="220px" />
+    <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta-logo.svg" width="200px" />
 </h1>
 
 <p align="center">
@@ -10,11 +10,11 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/capelaum/Ecoleta?color=%2304D361">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/capelaum/Ecoleta">
-	
+
   <a href="https://github.com/capelaum/Ecoleta/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/capelaum/Ecoleta">
   </a>
-  
+
   <a href="https://www.linkedin.com/in/luis-capelletto/">
     <img alt="Made by capelaum" src="https://img.shields.io/badge/made%20by-capelaum-%2304D361">
   </a>
@@ -22,11 +22,11 @@
 
 <p align="center">
   <a href="#aplica%C3%A7%C3%A3o-de-cadastro-de-pontos-de-coleta">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#memo-licen%C3%A7a">Licença</a> 
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licen%C3%A7a">Licença</a>
 </p>
 
 # Aplicação de cadastro de Pontos de Coleta
@@ -38,7 +38,7 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 - Entidades poderão cadastrar pontos de coleta
 
 <h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="600px" />
+    <img alt="Ecoleta Mockup" title="Example" src=".github/Ecoleta-mockup.png" width="400px" />
 </h1>
 
 ## 🔖 Layout
@@ -50,7 +50,7 @@ Você pode visualizar o layout do projeto no formato através desse [link](https
 <h3 align="center">01/06 a 07/06 de 2020</h3>
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/nlw-logo.svg" width="250px" />
 </h1>
 
 NLW é um evento online de graça que ocorre durante uma semana de conteúdo prático de programação e networking com um objetivo: te levar ao próximo nível.
@@ -67,7 +67,7 @@ NLW é um evento online de graça que ocorre durante uma semana de conteúdo pr�
 
 ## Como usar
 
-### Para rodar a aplicação Web você precisa ter instalado no PATH do seu ambiente: 
+### Para rodar a aplicação Web você precisa ter instalado no PATH do seu ambiente:
 
 - [Git](https://git-scm.com)
 - [Node.js][nodejs] + [Yarn][yarn]
@@ -81,7 +81,7 @@ git clone https://github.com/capelaum/Ecoleta
 
 ### Instale dependências pelo npm ou yarn
 
-Execute o comando install dentro de cada uma das pastas server e web: 
+Execute o comando install dentro de cada uma das pastas server e web:
 
 ```
  # yarn install
@@ -101,7 +101,7 @@ yarn knex:seed
 
 # Execute
 # yarn dev
-npm run dev 
+npm run dev
 
 backend running on port 3333
 ```
@@ -115,14 +115,14 @@ backend running on port 3333
 
 ```
  # yarn start
- npm start 
- 
+ npm start
+
 frontend running on port 3000
 ```
 
-### Basta acessar http://localhost:3000 e ver a aplicação 
+### Basta acessar http://localhost:3000 e ver a aplicação
 
-### :iphone: Rodando a versão Mobile 
+### :iphone: Rodando a versão Mobile
 
 #### Para rodar a aplicação mobile você precisa ter instalado o aplicativo [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR) no seu celular, tem tanto versão IOS quanto Android
 
@@ -146,7 +146,7 @@ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 Outra forma é abrir pelo app do expo no celular e clicar no símbolo de '+' no canto superior direito da tela do celular e colocar a url expo que aparece acima do QR Code
 
-----------------------------------
+---
 
 ## 🤔 Como contribuir
 
@@ -161,7 +161,6 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-
 Made with ♥ by capelaum :wave: [Get in touch!](https://www.linkedin.com/in/luis-capelletto/)
 
 [nodejs]: https://nodejs.org/
@@ -174,4 +173,3 @@ Made with ♥ by capelaum :wave: [Get in touch!](https://www.linkedin.com/in/lui
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-
