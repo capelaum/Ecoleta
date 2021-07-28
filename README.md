@@ -38,7 +38,7 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 - Entidades poderão cadastrar pontos de coleta
 
 <h1 align="center">
-    <img alt="Ecoleta Mockup" title="Example" src=".github/Ecoleta-mockup.png" width="400px" />
+    <img alt="Ecoleta Mockup" title="Example" src=".github/Mockup.png" width="700px" />
 </h1>
 
 ## 🔖 Layout
