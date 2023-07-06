@@ -15,7 +15,7 @@
     "@react-navigation/stack": "^5.14.7",
     "@types/react-native-maps": "^0.24.0",
     "axios": "^0.21.3",
-    "expo": "~42.0.3",
+    "expo": "~49.0.0",
     "expo-constants": "~11.0.1",
     "expo-font": "^9.0.0",
     "expo-location": "~12.1.2",
